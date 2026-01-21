@@ -31,7 +31,7 @@ const useExercises = () => {
 		};
 
 		fetchData();
-	}, []);
+	}, [setExercises, setUsers]);
 
 	const deleteExercise = async (id) => {
 		try {
