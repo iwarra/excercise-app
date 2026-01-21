@@ -9,6 +9,7 @@ const port = process.env.PORT;
 
 const corsOptions = {
 	origin: "*",
+	credentials: true,
 };
 
 app.use(cors(corsOptions));
@@ -18,7 +19,7 @@ const uri = process.env.ATLAS_URI;
 mongoose.connect(uri);
 const connection = mongoose.connection;
 connection.once("open", () => {
-	console.log("MongoDB connection established");
+	console.log("MongoDB connection established successfully");
 });
 
 const exercisesRouter = require("./routes/exercises");
