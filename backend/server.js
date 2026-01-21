@@ -18,7 +18,7 @@ const uri = process.env.ATLAS_URI;
 mongoose.connect(uri);
 const connection = mongoose.connection;
 connection.once("open", () => {
-	console.log("MongoDB connection established successfully");
+	console.log("MongoDB connection established");
 });
 
 const exercisesRouter = require("./routes/exercises");
