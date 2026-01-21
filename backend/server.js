@@ -9,7 +9,6 @@ const port = process.env.PORT;
 
 const corsOptions = {
 	origin: "*",
-	credentials: true,
 };
 
 app.use(cors(corsOptions));
