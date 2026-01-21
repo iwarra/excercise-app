@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import SingleExercise from '../components/SingleExercise';
 import { DataContext } from '../context/DataContext';
-const port = 5001;
 
 const API_BASE_URL =
 	process.env.NODE_ENV === 'development'
