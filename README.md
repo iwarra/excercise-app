@@ -1,6 +1,11 @@
-Fullstack MERN app that allows CRUD operations. Frontend is hosted on Netlify and backend on Render. 
-You can check out the project here: https://exerciser.netlify.app/  
+# Fullstack MERN app implementing CRUD operations.
+- Frontend is hosted on Netlify.
+- Backend is hosted on on my RaspberryPi. pm2 is implemented for Node management, and funnel is created with Tailscale. 
+
+
+You can check out the project here: https://exerciser.ivona.se/  
 Please don't delete all dummy data. 
+
 
 
 # Local environment
