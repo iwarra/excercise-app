@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT;
 
 const corsOptions = {
-	origin: "*",
+	origin: 'https://exercizer.ivona.se',
 };
 
 app.use(cors(corsOptions));
